@@ -4,8 +4,8 @@
 
 > **Nota importante**: Este documento se enfoca en aspectos técnicos y procedimientos. Para análisis comparativos, reflexiones personales y conclusiones, utiliza el archivo `CONCLUSIONES_EVALUACION.md`.
 
-**Autores**: [Nombre 1] y [Nombre 2]
-**Fecha V0**: [Fecha de entrega inicial]
+**Autores**: Diana y Gustavo
+**Fecha V0**: 03/10/2025
 **Fecha V1**: [Fecha de entrega final]
 
 ---
@@ -14,9 +14,9 @@
 
 ### Instalación y Verificación
 
-**Método de instalación:** [Especifica el método recomendado]
+**Método de instalación:** [Se descargar directamente desde la página oficial de Visual Studio Code]
 
-> **💡 Sobre las imágenes**: Incluye capturas de pantalla para mostrar los diferentes pasos o resultados. Ejemplo: ![Descripción clara del contenido](screenshots/placeholder.png)`
+> **💡 Sobre las imágenes**: Incluye capturas de pantalla para mostrar los diferentes pasos o resultados. Ejemplo: ![Descripción clara del contenido](screenshots/descargavisual.png)`
 
 **Proceso de instalación:**
 - **Descarga:** [Describir el proceso]
