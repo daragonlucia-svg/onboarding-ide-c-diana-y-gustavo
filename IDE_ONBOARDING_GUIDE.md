@@ -16,7 +16,7 @@
 
 **Método de instalación:** [Se descargar directamente desde la página oficial de Visual Studio Code]
 
-> **💡 Sobre las imágenes**: Incluye capturas de pantalla para mostrar los diferentes pasos o resultados. Ejemplo: ![Descripción clara del contenido]("C:\Users\Usuario\Desktop\GitHub2\onboarding-ide-c-diana-y-gustavo\screenshots\descargavisual.jpg")
+> **💡 Sobre las imágenes**: Incluye capturas de pantalla para mostrar los diferentes pasos o resultados. Ejemplo: ![Descripción clara del contenido](C:\Users\Usuario\Desktop\GitHub2\onboarding-ide-c-diana-y-gustavo\screenshots\descargavisual.jpg)
 **Proceso de instalación:**
 - **Descarga:** [Describir el proceso]
 - **Opciones del instalador:** [Documentar las opciones que se consideraron importantes]
