@@ -6,7 +6,7 @@
 
 **Autores**: Diana y Gustavo
 **Fecha V0**: 03/10/2025
-**Fecha V1**: 
+**Fecha V1**: [Fecha de entrega final]
 
 ---
 
@@ -16,7 +16,8 @@
 
 **Método de instalación:** [Se descargar directamente desde la página oficial de Visual Studio Code]
 
-> **💡 Sobre las imágenes**: Incluye capturas de pantalla para mostrar los diferentes pasos o resultados. Ejemplo: ![Descripción clara del contenido](screenshots\descargavisual.jpg)
+> **💡 Sobre las imágenes**: Incluye capturas de pantalla para mostrar los diferentes pasos o resultados. Ejemplo: ![Descripción clara del contenido](screenshots/descargavisual.jpg)`
+
 **Proceso de instalación:**
 - **Descarga:** [Describir el proceso]
 - **Opciones del instalador:** [Documentar las opciones que se consideraron importantes]
