@@ -57,13 +57,13 @@
 
 ![Descripción clara del contenido](screenshots/configuraciones.png)
 
-1. Tema oscuro
-2. Fuente Consolas, tamaño 14
-3. Autoguardado activado
-4. Formateo automatico al guardar (Prettier, ESLint)
-5. Extensiones segun lenguaje (Python, C++, JavaScript,etc)
-6. Atajos de teclado personalizados para comandos frecuentes 
-7. Barra lateral organizada con explorador y control de versiones 
+- Tema oscuro
+- Fuente Consolas, tamaño 14
+- Autoguardado activado
+- Formateo automatico al guardar (Prettier, ESLint)
+- Extensiones segun lenguaje (Python, C++, JavaScript,etc)
+- Atajos de teclado personalizados para comandos frecuentes 
+- Barra lateral organizada con explorador y control de versiones 
 
 Ejemplo de configuraciones utiles:
 
