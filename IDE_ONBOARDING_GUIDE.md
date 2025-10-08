@@ -14,12 +14,16 @@
 
 ### Instalación y Verificación
 
-**Método de instalación:** [Se descargar directamente desde la página oficial de Visual Studio Code]
+**Método de instalación:** Se descargar directamente desde la página oficial de Visual Studio Code
 
 > **💡 Sobre las imágenes**: Incluye capturas de pantalla para mostrar los diferentes pasos o resultados. Ejemplo: ![Descripción clara del contenido](screenshots/descargavisual.png)`
 
 **Proceso de instalación:**
-- **Descarga:** [Describir el proceso]
+- **Descarga:** 
+1. Ve a la pagina (https://code.visualstudio.com/)
+2. Descaga VS Code segun tu sistema operativo 
+3. Instalalo 
+4. Abrelo y empieza a usarlo 
 - **Opciones del instalador:** [Documentar las opciones que se consideraron importantes]
 - **Verificación:** [Cómo verificar que funciona]
 
