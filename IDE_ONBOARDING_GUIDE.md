@@ -27,7 +27,7 @@
 3. Instalalo 
 4. Abrelo y empieza a usarlo 
 - **Opciones del instalador:** 
-![Descripción clara del contenido](screenshots/instalador.png)
+![Descripción clara del contenido](screenshots/Instalador.png)
 
 1. Aceptar licencia
 2. Seleccionar carpeta
