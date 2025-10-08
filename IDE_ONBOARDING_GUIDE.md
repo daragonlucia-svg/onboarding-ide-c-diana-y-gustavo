@@ -43,21 +43,36 @@
 1. Abrir VS Code desde el menu o con code en la terminal 
 2. Ver que se inicia sin errores y muestra la pantalla de bienvenida 
 
-*Es posible documentar múltiples métodos.*
-
 ### Uso Básico de VS Code
 
 **Navegación y funcionalidades básicas:**
 - Navegación por la interfaz
 - Edición de código
-- Uso de la paleta de comandos
+- Uso de la paleta de comandos (Ctrl+Shift+P)
 - Gestión de archivos y carpetas
 
 ### Personalización del Entorno
 
-**Configuraciones aplicadas:** [Describir las personalizaciones que se realizaron]
+**Configuraciones aplicadas:** 
 
-*Ejemplos de configuraciones útiles (elegir las que se consideren relevantes):*
+![Descripción clara del contenido](screenshots/configuraciones.png)
+
+1. Tema oscuro
+2. Fuente Consolas, tamaño 14
+3. Autoguardado activado
+4. Formateo automatico al guardar (Prettier, ESLint)
+5. Extensiones segun lenguaje (Python, C++, JavaScript,etc)
+6. Atajos de teclado personalizados para comandos frecuentes 
+7. Barra lateral organizada con explorador y control de versiones 
+
+Ejemplo de configuraciones utiles:
+
+- Cambiar tema (oscuro / claro)
+- Ajustar fuente y tamaño 
+- Auto-guardado y formateo automatico 
+- Instalar extensiones segun lenguaje
+- Personalizar atajos de teclado 
+- Organizar paneles y barra lateral 
 
 **Temas e iconos:**
 Ejemplos:
