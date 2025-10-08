@@ -28,6 +28,7 @@
 3. Instalalo 
 4. Abrelo y empieza a usarlo 
 - **Opciones del instalador:** 
+
 ![Descripción clara del contenido](screenshots/Instalador.png)
 
 1. Aceptar licencia
@@ -36,6 +37,7 @@
 4. Registrar VS Code como editor predeterminado 
 5. Crear accesos directos
 - **Verificación:** 
+
 ![Descripción clara del contenido](screenshots/Verificacion.png)
 
 1. Abrir VS Code desde el menu o con code en la terminal 
