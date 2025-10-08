@@ -20,6 +20,7 @@
 
 **Proceso de instalación:**
 - **Descarga:** 
+
 ![Descripción clara del contenido](screenshots/descarga.png)
 
 1. Ve a la pagina (https://code.visualstudio.com/)
