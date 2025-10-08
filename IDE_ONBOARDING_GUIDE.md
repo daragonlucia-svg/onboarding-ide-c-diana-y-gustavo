@@ -76,7 +76,7 @@ Ejemplo de configuraciones utiles:
 
 **Temas e iconos:**
 Ejemplos:
-- Material Theme, One Dark Pro
+- Material Theme, One Dark Pro, Dracula, Solarized Dark,Night Owl 
 - File Icon Theme para mejor identificación de archivos
 
 **Configuración de fuentes:**
