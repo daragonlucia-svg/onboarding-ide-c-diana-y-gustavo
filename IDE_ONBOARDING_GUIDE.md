@@ -19,18 +19,24 @@
 > **💡 Sobre las imágenes**: Incluye capturas de pantalla para mostrar los diferentes pasos o resultados. Ejemplo: ![Descripción clara del contenido](screenshots/descargavisual.jpg)`
 
 **Proceso de instalación:**
-- **Descarga:** ![Descripción clara del contenido](screenshots/descarga.png)
+- **Descarga:** 
+![Descripción clara del contenido](screenshots/descarga.png)
+
 1. Ve a la pagina (https://code.visualstudio.com/)
 2. Descaga VS Code segun tu sistema operativo 
 3. Instalalo 
 4. Abrelo y empieza a usarlo 
-- **Opciones del instalador:** ![Descripción clara del contenido](screenshots/instalador.png)
+- **Opciones del instalador:** 
+![Descripción clara del contenido](screenshots/instalador.png)
+
 1. Aceptar licencia
 2. Seleccionar carpeta
 3. Agregar a PATH
 4. Registrar VS Code como editor predeterminado 
 5. Crear accesos directos
-- **Verificación:** ![Descripción clara del contenido](screenshots/Verificacion.png)
+- **Verificación:** 
+![Descripción clara del contenido](screenshots/Verificacion.png)
+
 1. Abrir VS Code desde el menu o con code en la terminal 
 2. Ver que se inicia sin errores y muestra la pantalla de bienvenida 
 
