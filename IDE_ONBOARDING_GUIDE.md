@@ -78,16 +78,21 @@ Ejemplo de configuraciones utiles:
 
 ![Descripción clara del contenido](screenshots/temas.jpg)
 
-
 Ejemplos:
 - Material Theme, One Dark Pro, Dracula, Solarized Dark,Night Owl 
 - File Icon Theme para mejor identificación de archivos
 
 **Configuración de fuentes:**
+
+![Descripción clara del contenido](screenshots/fuente.png)
+
 Ejemplos:
 - Fira Code, JetBrains Mono (con ligaduras)
 
 **Atajos de teclado útiles:**
+
+![Descripción clara del contenido](screenshots/atajos.jpg)
+
 Ejemplos:
 - Ctrl+/ para comentar/descomentar
 - Ctrl+Shift+P para paleta de comandos
@@ -95,6 +100,9 @@ Ejemplos:
 - Alt+↑/↓ para mover líneas
 
 **Configuración del editor:**
+
+![Descripción clara del contenido](screenshots/editor.jpg)
+
 Ejemplos:
 - Formateo automático al guardar
 - Detección automática de indentación
