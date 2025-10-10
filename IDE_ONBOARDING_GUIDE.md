@@ -75,6 +75,10 @@ Ejemplo de configuraciones utiles:
 - Organizar paneles y barra lateral 
 
 **Temas e iconos:**
+
+![Descripción clara del contenido](screenshots/temas.jpg)
+
+
 Ejemplos:
 - Material Theme, One Dark Pro, Dracula, Solarized Dark,Night Owl 
 - File Icon Theme para mejor identificación de archivos
