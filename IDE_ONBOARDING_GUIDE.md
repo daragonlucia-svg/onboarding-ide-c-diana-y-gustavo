@@ -101,7 +101,7 @@ Ejemplos:
 
 **Configuración del editor:**
 
-![Descripción clara del contenido](screenshots/editor.jpg)
+![Descripción clara del contenido](screenshots/editor.png)
 
 Ejemplos:
 - Formateo automático al guardar
@@ -109,6 +109,9 @@ Ejemplos:
 - Word wrap para líneas largas
 
 **Terminal integrada:**
+
+![Descripción clara del contenido](screenshots/terminal.png)
+
 Ejemplos:
 - PowerShell como terminal predeterminado
 - Configuración de perfil personalizado
