@@ -121,8 +121,14 @@ Ejemplos:
 ### SDK .NET
 
 **Proceso de instalación:**
-1. **Descarga e instalación:** [Describir el proceso]
-2. **Verificación:** [Cómo comprobar que funciona]
+
+![Descripción clara del contenido](screenshots/instalacion.png)
+
+1. **Descarga e instalación:** 
+   Descarga el instalador del .NETSDK desde (https://dotnet.microsoft.com/es-es/download) y sigue las instrucciones del asistente hasta completar la instalacion.
+2. **Verificación:** 
+   - Primero abre una terminal o PowerShell y ejecuta "dotnet --version"
+   - Segundo, si aparece un numero de version, el SDK se instalo correctamente.
 
 ### Configuración para C#
 
