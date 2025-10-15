@@ -130,6 +130,8 @@ Ejemplos:
    - Primero abre una terminal o PowerShell y ejecuta "dotnet --version"
    - Segundo, si aparece un numero de version, el SDK se instalo correctamente.
 
+   ![Descripción clara del contenido](screenshots/powershell.png)
+
 ### Configuración para C#
 
 **Extensiones esenciales:**
