@@ -125,6 +125,7 @@ Ejemplos:
 
 ![Descripción clara del contenido](screenshots/instalacion.png)
 
+
 1. **Descarga e instalación:** 
    Descarga el instalador del .NETSDK desde (https://dotnet.microsoft.com/es-es/download) y sigue las instrucciones del asistente hasta completar la instalacion.
 2. **Verificación:** 
