@@ -128,11 +128,14 @@ Ejemplos:
 
 1. **Descarga e instalación:** 
    Descarga el instalador del .NETSDK desde (https://dotnet.microsoft.com/es-es/download) y sigue las instrucciones del asistente hasta completar la instalacion.
+
 2. **Verificación:** 
+   
+   ![Descripción clara del contenido](screenshots/powershell.png)
+
    - Primero abre una terminal o PowerShell y ejecuta "dotnet --version"
    - Segundo, si aparece un numero de version, el SDK se instalo correctamente.
 
-![Descripción clara del contenido](screenshots/powershell.png)
 
 ### Configuración para C#
 
