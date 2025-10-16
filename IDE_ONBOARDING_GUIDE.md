@@ -27,6 +27,7 @@
 2. Descaga VS Code segun tu sistema operativo 
 3. Instalalo 
 4. Abrelo y empieza a usarlo 
+
 - **Opciones del instalador:** 
 
 ![Descripción clara del contenido](screenshots/Instalador.png)
@@ -135,46 +136,137 @@ Ejemplos:
 ### Configuración para C#
 
 **Extensiones esenciales:**
+
+ ![Descripción clara del contenido](screenshots/extension.png)
+
 - **Soporte oficial para C#**: Extensión que proporciona IntelliSense, debugging y compilación
 
+   - Extension: ms-dotnettools.csharp
+
+Nota: Con esta extensión y el .NET SDK instalado, ya puedes crear, ejecutar y depurar proyectos C# sin necesidad de nada más.
 
 **Configuraciones específicas para C#:** 
-[Describir las configuraciones que se aplicaron, como formateo automático, intellisense, o configuraciones del compilador]
+
+- **Formateo automatico**:Se activa al guardar para mantener el codigo limpio y ordenado.
+- **IntelliSense**: Ayuda a autocompletar el codigo y sugiere métodos, clases y variables mientras escribes.
+- **Compilador**: Permite ejecutar proyectos con dotnet run directamente desde la terminal integrada.
+- **Depuracion (debug)**: Configurando con launch.json para detener y revisar el codigo paso a paso en tiempo real.
 
 **Debugging básico:**
-- Configuración de puntos de interrupción (breakpoints)
-- Ejecutar y depurar
-- Inspección de variables
+
+- **Puntos de interrupción (breakpoints):** Haz clic en el margen izquierdo del editor junto a la línea de código donde quieras detener la ejecución.  
+ 
+ ![Descripción clara del contenido](screenshots/puntos.png)
+
+- **Ejecutar y depurar:** Presiona `F5` o selecciona "Run and Debug" en la barra lateral para iniciar la depuración de tu proyecto.  
+
+ ![Descripción clara del contenido](screenshots/depuracion.png)
+
+- **Inspección de variables:** Durante la depuración, usa el panel de depuración para revisar valores de variables, el flujo de ejecución y la pila de llamadas.  
+
+ ![Descripción clara del contenido](screenshots/variables.png)
+
 
 > **Enfoque práctico**: Concentra tu documentación en las funcionalidades básicas que usarás día a día.
 
 ### Flujo de Trabajo con C#
 
 **Creación de proyectos:**
-[Documentar el proceso para crear proyectos C#]
+1. Abrir VS Code
+2. Crear una carpeta para tu proyecto 
+3. Abrir la caroeta en VS Code
+4. Abrir la terminal integrada en VS Code
+5. Escribir en la terminal: `dotnet new console -o MiProyecto`
+6. ¡Listo! Tu proyecto de C# ya está creado
+
+![Descripción clara del contenido](screenshots/proyecto.png)
 
 **Estructura de proyecto:**
-```csharp
-// Incluir aquí un ejemplo del código desarrollado
-// Comentarios sobre las decisiones tomadas
-```
+
+![Descripción clara del contenido](screenshots/estructura.png)
+
+   - bin/ : Carpeta con los archivos compilados
+   - obj/ : Archivos temporales de compilacion 
+   - MiProyecto.csproj : Archivo de configuracion del proyecto
+   - Program.cs : Codigo Principal del proyecto
+   - Proyecto.sln : Archivo de solucion que agrupa proyectos
+
+- **Program.cs - Codigo generado por defecto**
+
+![Descripción clara del contenido](screenshots/ejemplo.png)
+
+
+- **Comentarios sobre las decisiones tomadas:**
+
+   - Program.cs contiene el código que se ejecuta al iniciar el proyecto.
+
+   - Console.WriteLine imprime un mensaje en la terminal.
+
+   - MiProyecto.csproj y Proyecto.sln gestionan la configuración y organización del proyecto.
+
+   - bin/ y obj/ son carpetas generadas automáticamente al compilar y no se modifican manualmente.
+
 
 **Compilación y ejecución:**
-[Proceso para compilar y ejecutar proyectos]
+
+1. Abrir la terminal integrada en VS Code
+2. Asegurarse de estar dentro de la carpeta del proyecto, escribir el comando: cd MiProyecto
+3. Ejecutar el proyecto, escribir: dotnet run 
+4. Listo! verificar la salida de la terminal
+   Hello, World!
+
+![Descripción clara del contenido](screenshots/compilacion.png)
+
 
 **Debugging:**
-[Configuración y uso de debugging]
 
----
+1. Abrir Program.cs en VS Code.
+
+2. Agregar un breakpoint haciendo clic a la izquierda de la línea.
+
+3. Presionar Run and Debug en la barra lateral izquierda o en la parte superior.
+
+4.  Seleccionar Debug Project Associated With This File
+
+5. Ver variables y flujo de ejecución en el panel de depuración.
+
+![Descripción clara del contenido](screenshots/debug.png)
+
+6. Presionar F5 para continuar la ejecución.
+
+![Descripción clara del contenido](screenshots/finalizacion.png)
 
 ## Visual Studio - IDE Alternativo
 
 ### Instalación
 
 **Proceso de instalación:**
-- **Descarga:** [Versión recomendada - Community/Professional]
-- **Componentes necesarios:** [Componentes específicos para C#]
-- **Verificación:** [Cómo confirmar instalación correcta]
+- **Descarga:**
+
+![Descripción clara del contenido](screenshots/IDE.jpg)
+
+1. Ve a la pagina (https://visualstudio.microsoft.com/es/)
+2. Hacer clic en Descargar Visual Studio (esto descarga el instalador).
+3. Ejecutar el instalador 
+   
+- **Componentes necesarios:**
+-  Durante la instalación, seleccionar la carga de trabajo “Desarrollo de escritorio con .NET”.
+
+- Esto incluye soporte para C#, .NET SDK, depuración y herramientas de compilación.
+
+![Descripción clara del contenido](screenshots/desarrollo.png)
+
+- **Verificación:** 
+
+1. Abrir la solución ConsoleApp.sln.
+
+2. Asegurarse de que consoleApp1 es el proyecto de inicio.
+
+3. Ejecutar el proyecto con Ctrl + F5.
+
+4. Verificar la salida en la consola:
+
+![Descripción clara del contenido](screenshots/prueba.png)
 
 ### Desarrollo con C#
 
