@@ -14,11 +14,10 @@
 
 ### Instalación y Verificación
 
-**Método de instalación:** Se descargar directamente desde la página oficial de Visual Studio Code
-
-> **💡 Sobre las imágenes**: Incluye capturas de pantalla para mostrar los diferentes pasos o resultados. Ejemplo: ![Descripción clara del contenido](screenshots/descargavisual.jpg)`
+**Método de instalación:**  Se descargar directamente desde la página oficial de Visual Studio Code
 
 **Proceso de instalación:**
+
 - **Descarga:** 
 
 ![Descripción clara del contenido](screenshots/descarga.png)
