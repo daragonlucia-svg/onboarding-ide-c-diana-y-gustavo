@@ -219,7 +219,7 @@ Nota: Con esta extensión y el .NET SDK instalado, ya puedes crear, ejecutar y d
 4. Listo! verificar la salida de la terminal
    Hello, World!
 
-![Descripción clara del contenido](screenshots/compilacion.png)
+![Descripción clara del contenido](screenshots/compilacion.PNG)
 
 
 **Debugging:**
