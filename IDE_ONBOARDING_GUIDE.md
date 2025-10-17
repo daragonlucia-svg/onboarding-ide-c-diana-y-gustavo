@@ -47,6 +47,7 @@
 ### Uso Básico de VS Code
 
 **Navegación y funcionalidades básicas:**
+
 - Navegación por la interfaz
 - Edición de código
 - Uso de la paleta de comandos (Ctrl+Shift+P)
@@ -130,7 +131,6 @@ Ejemplos:
 
 ![Descripción clara del contenido](screenshots/instalacion.png)
 
-
 1. **Descarga e instalación:** 
 
    1. Descarga el instalador del .NETSDK desde (https://dotnet.microsoft.com/es-es/download) 
@@ -141,9 +141,10 @@ Ejemplos:
    
    ![Descripción clara del contenido](screenshots/powershell.PNG)
 
-   1. Abre una terminal o PowerShell y ejecuta 
+   1. Abre una terminal o PowerShell y ejecuta:
+
       ```
-      dotnet --version
+       dotnet --version
       ```
    2. Si aparece un numero de version, el SDK se instalo correctamente!
 
@@ -187,12 +188,17 @@ Nota: Con esta extensión y el .NET SDK instalado, ya puedes crear, ejecutar y d
 ### Flujo de Trabajo con C#
 
 **Creación de proyectos:**
-1. Abrir VS Code
-2. Crear una carpeta para tu proyecto 
-3. Abrir la caroeta en VS Code
-4. Abrir la terminal integrada en VS Code
-5. Escribir en la terminal: `dotnet new console -o MiProyecto`
-6. ¡Listo! Tu proyecto de C# ya está creado
+
+   1. Abrir VS Code
+   2. Crear una carpeta para tu proyecto 
+   3. Abrir la caroeta en VS Code
+   4. Abrir la terminal integrada en VS Code
+   5. Escribir en la terminal: 
+
+      ```
+       dotnet new console -o MiProyecto
+      ```
+   6. ¡Listo! Tu proyecto de C# ya está creado
 
 ![Descripción clara del contenido](screenshots/proyecto.PNG)
 
@@ -200,110 +206,164 @@ Nota: Con esta extensión y el .NET SDK instalado, ya puedes crear, ejecutar y d
 
 ![Descripción clara del contenido](screenshots/estructura.PNG)
 
-   - bin/ : Carpeta con los archivos compilados
-   - obj/ : Archivos temporales de compilacion 
-   - MiProyecto.csproj : Archivo de configuracion del proyecto
-   - Program.cs : Codigo Principal del proyecto
-   - Proyecto.sln : Archivo de solucion que agrupa proyectos
+   bin/ : Carpeta con los archivos compilados
+   obj/ : Archivos temporales de compilacion 
+   MiProyecto.csproj : Archivo de configuracion del proyecto
+   Program.cs : Codigo Principal del proyecto
+   Proyecto.sln : Archivo de solucion que agrupa proyectos
 
 - **Program.cs - Codigo generado por defecto**
 
 ![Descripción clara del contenido](screenshots/ejemplo.PNG)
 
-
 - **Comentarios sobre las decisiones tomadas:**
 
-   - Program.cs contiene el código que se ejecuta al iniciar el proyecto.
-
-   - Console.WriteLine imprime un mensaje en la terminal.
-
-   - MiProyecto.csproj y Proyecto.sln gestionan la configuración y organización del proyecto.
-
-   - bin/ y obj/ son carpetas generadas automáticamente al compilar y no se modifican manualmente.
+   Program.cs contiene el código que se ejecuta al iniciar el proyecto.
+   Console.WriteLine imprime un mensaje en la terminal.
+   MiProyecto.csproj y Proyecto.sln gestionan la configuración y organización del proyecto.
+   bin/ y obj/ son carpetas generadas automáticamente al compilar y no se modifican manualmente.
 
 
 **Compilación y ejecución:**
 
-1. Abrir la terminal integrada en VS Code
-2. Asegurarse de estar dentro de la carpeta del proyecto, escribir el comando: cd MiProyecto
-3. Ejecutar el proyecto, escribir: dotnet run 
-4. Listo! verificar la salida de la terminal
-   Hello, World!
-
 ![Descripción clara del contenido](screenshots/compilacion.PNG)
 
+   1. Abrir la terminal integrada en VS Code
+   2. Asegurarse de estar dentro de la carpeta del proyecto, escribir el comando: 
+   
+      ```
+          cd MiProyecto
+      ```
+   3. Ejecutar el proyecto, escribir: dotnet run 
+   4. Listo! verificar la salida de la terminal
+      Hello, World!
 
 **Debugging:**
 
-1. Abrir Program.cs en VS Code.
+   1. Abrir Program.cs en VS Code.
+   2. Agregar un breakpoint haciendo clic a la izquierda de la línea.
+   3. Presionar Run and Debug en la barra lateral izquierda o en la parte superior.
+   4. Seleccionar Debug Project Associated With This File
+   5. Ver variables y flujo de ejecución en el panel de depuración.
+   6. Presionar F5 para continuar la ejecución.
 
-2. Agregar un breakpoint haciendo clic a la izquierda de la línea.
+![Paso 5](screenshots/debug.PNG)
 
-3. Presionar Run and Debug en la barra lateral izquierda o en la parte superior.
-
-4.  Seleccionar Debug Project Associated With This File
-
-5. Ver variables y flujo de ejecución en el panel de depuración.
-
-![Descripción clara del contenido](screenshots/debug.PNG)
-
-6. Presionar F5 para continuar la ejecución.
-
-![Descripción clara del contenido](screenshots/finalizacion.PNG)
+![Paso 6](screenshots/finalizacion.PNG)
 
 ## Visual Studio - IDE Alternativo
 
 ### Instalación
 
 **Proceso de instalación:**
+
 - **Descarga:**
 
 ![Descripción clara del contenido](screenshots/IDE.jpg)
 
-1. Ve a la pagina (https://visualstudio.microsoft.com/es/)
-2. Hacer clic en Descargar Visual Studio (esto descarga el instalador).
-3. Ejecutar el instalador 
+   1. Ve a la pagina (https://visualstudio.microsoft.com/es/)
+   2. Hacer clic en Descargar Visual Studio (esto descarga el instalador).
+   3. Ejecutar el instalador 
    
 - **Componentes necesarios:**
--  Durante la instalación, seleccionar la carga de trabajo “Desarrollo de escritorio con .NET”.
 
-- Esto incluye soporte para C#, .NET SDK, depuración y herramientas de compilación.
+   1. Durante la instalación, seleccionar la carga de trabajo “Desarrollo de escritorio con .NET”.
+   2. Esto incluye soporte para C#, .NET SDK, depuración y herramientas de compilación.
 
 ![Descripción clara del contenido](screenshots/desarrollo.png)
 
 - **Verificación:** 
 
-1. Abrir la solución ConsoleApp.sln.
-
-2. Asegurarse de que consoleApp1 es el proyecto de inicio.
-
-3. Ejecutar el proyecto con Ctrl + F5.
-
+1. Abrir la solución MiSolucion.sln.
+2. Seleccionar como proyecto de inicio el que contiene Program.cs
+3. Ejecutar el proyecto con Ctrl + F5
 4. Verificar la salida en la consola:
+
+    ```
+      Hello, World!
+   ```
 
 ![Descripción clara del contenido](screenshots/prueba.PNG)
 
 ### Desarrollo con C#
 
 **Creación de proyecto:**
-[Describir el proceso para crear un proyecto C# en Visual Studio]
+ 1. Abrir Visual Studio
+ 2. Hacer clic en "Crear un nuevo proyecto"
+
+![Descripción clara del contenido](screenshots/crear.PNG)
+
+ 3. Seleccionar "Aplicacion de consola (.NET)" 
+
+![Descripción clara del contenido](screenshots/consola.PNG)
+
+ 4. Escribir un nombre para el proyecto y elegir la carpeta donde se guardara
+
+![Descripción clara del contenido](screenshots/creacion.PNG)
+
+ 5. Hacer clic en Crear
+
+![Descripción clara del contenido](screenshots/miproyecto.PNG)
+
+ 6. Se crea automaticamente la estructura del proyecto con el archivo (Program.cs) listo para usar.
+
+![Descripción clara del contenido](screenshots/principal.PNG)
 
 **Flujo de trabajo básico:**
 - Compilación y ejecución
+
+![Descripción clara del contenido](screenshots/ejecutar.PNG)
+
+   1. Seleccionar el proyecto a ejecutar como proyecto de inicio
+   2. Ejecutar con Ctrl + F5
+   3. Verificar que la consola muestre:
+
+   ```
+      Hello, World!
+   ```
 - Uso de Solution Explorer
+
+![Descripción clara del contenido](screenshots/solucion.PNG)
+
+   Navegar por archivos y carpetas del proyecto.
+   Abrir, modificar o agregar nuevos archivos.
+
 - Debugging básico
+
+   1. Abrir Program.cs
+   2. Colocar breakpoints haciendo clic a la izquierda de la linea deseada.
+   3. Presiona F5
+   4. Observar variables y flujo de ejecucion en el panel de depuracion
+
+![Descripción clara del contenido](screenshots/depuracion2.PNG)
 
 ---
 
 ## Configuración de Lenguaje Adicional
 
-**Lenguaje seleccionado:** [Java/Python/Otro] - **Justificación:** [Por qué se eligió este lenguaje]
+**Lenguaje seleccionado:** Python
+**Justificación:** Fácil de entender, sintaxis clara y directa, permite probar código rápido, se integra bien con VS Code y se puede usar en muchos tipos de programas diferentes.
 
 ### Instalación del Entorno
 
 **Runtime/SDK:**
-- **Descarga e instalación:** [Proceso paso a paso]
-- **Verificación:** [Cómo confirmar que funciona]
+- **Descarga e instalación:** 
+
+![Descripción clara del contenido](screenshots/python.png)
+
+   1. Ve a la página https://www.python.org/downloads/
+   2. Descarga la ultima versión para tu sistema operativo
+   3. Ejecuta el instalador y marca Add Python to PATH
+   4. Completa la instalación siguiendo el asistente
+   5. Abre la terminal y escribe python --version para verificar que se instaló correctamente
+
+- **Verificación:** 
+   1. Abrir la terminal o PowerShell
+   2. Escribir el comando:
+
+    ```
+      python --version
+    ```
 
 ### Configuración en VS Code
 
