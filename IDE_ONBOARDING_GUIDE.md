@@ -37,6 +37,7 @@
 3. Agregar a PATH
 4. Registrar VS Code como editor predeterminado 
 5. Crear accesos directos
+
 - **Verificación:** 
 
 ![Descripción clara del contenido](screenshots/Verificacion.png)
@@ -80,6 +81,7 @@ Ejemplo de configuraciones utiles:
 ![Descripción clara del contenido](screenshots/temas.jpg)
 
 Ejemplos:
+
 - Material Theme, One Dark Pro, Dracula, Solarized Dark,Night Owl 
 - File Icon Theme para mejor identificación de archivos
 
@@ -88,6 +90,7 @@ Ejemplos:
 ![Descripción clara del contenido](screenshots/fuente.png)
 
 Ejemplos:
+
 - Fira Code, JetBrains Mono (con ligaduras)
 
 **Atajos de teclado útiles:**
@@ -95,6 +98,7 @@ Ejemplos:
 ![Descripción clara del contenido](screenshots/atajos.jpg)
 
 Ejemplos:
+
 - Ctrl+/ para comentar/descomentar
 - Ctrl+Shift+P para paleta de comandos
 - Ctrl+` para terminal integrada
@@ -105,6 +109,7 @@ Ejemplos:
 ![Descripción clara del contenido](screenshots/editor.png)
 
 Ejemplos:
+
 - Formateo automático al guardar
 - Detección automática de indentación
 - Word wrap para líneas largas
@@ -114,6 +119,7 @@ Ejemplos:
 ![Descripción clara del contenido](screenshots/terminal.png)
 
 Ejemplos:
+
 - PowerShell como terminal predeterminado
 - Configuración de perfil personalizado
 
@@ -127,14 +133,20 @@ Ejemplos:
 
 
 1. **Descarga e instalación:** 
-   Descarga el instalador del .NETSDK desde (https://dotnet.microsoft.com/es-es/download) y sigue las instrucciones del asistente hasta completar la instalacion.
+
+   1. Descarga el instalador del .NETSDK desde (https://dotnet.microsoft.com/es-es/download) 
+   2. Sigue las instrucciones del asistente hasta completar la instalacion
+   3. !Listo! El SDK .NET estara instalado en tu equipo
 
 2. **Verificación:** 
    
    ![Descripción clara del contenido](screenshots/powershell.PNG)
 
-   - Primero abre una terminal o PowerShell y ejecuta "dotnet --version"
-   - Segundo, si aparece un numero de version, el SDK se instalo correctamente.
+   1. Abre una terminal o PowerShell y ejecuta 
+      ```
+      dotnet --version
+      ```
+   2. Si aparece un numero de version, el SDK se instalo correctamente!
 
 
 ### Configuración para C#
