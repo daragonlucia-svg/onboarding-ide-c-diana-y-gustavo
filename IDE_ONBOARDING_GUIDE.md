@@ -131,7 +131,7 @@ Ejemplos:
 
 2. **Verificación:** 
    
-   ![Descripción clara del contenido](screenshots/powershell.png)
+   ![Descripción clara del contenido](screenshots/powershell.PNG)
 
    - Primero abre una terminal o PowerShell y ejecuta "dotnet --version"
    - Segundo, si aparece un numero de version, el SDK se instalo correctamente.
@@ -141,7 +141,7 @@ Ejemplos:
 
 **Extensiones esenciales:**
 
-![Descripción clara del contenido](screenshots/extension.png)
+![Descripción clara del contenido](screenshots/extension.PNG)
 
 - **Soporte oficial para C#**: Extensión que proporciona IntelliSense, debugging y compilación
 
@@ -183,11 +183,11 @@ Nota: Con esta extensión y el .NET SDK instalado, ya puedes crear, ejecutar y d
 5. Escribir en la terminal: `dotnet new console -o MiProyecto`
 6. ¡Listo! Tu proyecto de C# ya está creado
 
-![Descripción clara del contenido](screenshots/proyecto.png)
+![Descripción clara del contenido](screenshots/proyecto.PNG)
 
 **Estructura de proyecto:**
 
-![Descripción clara del contenido](screenshots/estructura.png)
+![Descripción clara del contenido](screenshots/estructura.PNG)
 
    - bin/ : Carpeta con los archivos compilados
    - obj/ : Archivos temporales de compilacion 
@@ -197,7 +197,7 @@ Nota: Con esta extensión y el .NET SDK instalado, ya puedes crear, ejecutar y d
 
 - **Program.cs - Codigo generado por defecto**
 
-![Descripción clara del contenido](screenshots/ejemplo.png)
+![Descripción clara del contenido](screenshots/ejemplo.PNG)
 
 
 - **Comentarios sobre las decisiones tomadas:**
@@ -234,11 +234,11 @@ Nota: Con esta extensión y el .NET SDK instalado, ya puedes crear, ejecutar y d
 
 5. Ver variables y flujo de ejecución en el panel de depuración.
 
-![Descripción clara del contenido](screenshots/debug.png)
+![Descripción clara del contenido](screenshots/debug.PNG)
 
 6. Presionar F5 para continuar la ejecución.
 
-![Descripción clara del contenido](screenshots/finalizacion.png)
+![Descripción clara del contenido](screenshots/finalizacion.PNG)
 
 ## Visual Studio - IDE Alternativo
 
@@ -270,7 +270,7 @@ Nota: Con esta extensión y el .NET SDK instalado, ya puedes crear, ejecutar y d
 
 4. Verificar la salida en la consola:
 
-![Descripción clara del contenido](screenshots/prueba.png)
+![Descripción clara del contenido](screenshots/prueba.PNG)
 
 ### Desarrollo con C#
 
