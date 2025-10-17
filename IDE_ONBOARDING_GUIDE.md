@@ -357,7 +357,7 @@ Nota: Con esta extensión y el .NET SDK instalado, ya puedes crear, ejecutar y d
    4. Completa la instalación siguiendo el asistente
    5. Abre la terminal y escribe python --version para verificar que se instaló correctamente
 
-- **Verificación:** 
+ **Verificación:** 
    1. Abrir la terminal o PowerShell
    2. Escribir el comando:
 
@@ -380,6 +380,8 @@ Nota: Con esta extensión y el .NET SDK instalado, ya puedes crear, ejecutar y d
 
 **Configuraciones específicas aplicadas:**
 [Documentar los ajustes que se realizaron, como configuración del intérprete, formateo automático, linting, etc.]
+
+![Descripción clara del contenido](screenshots/setting.png)
 
 ### Proyecto de Ejemplo
 
