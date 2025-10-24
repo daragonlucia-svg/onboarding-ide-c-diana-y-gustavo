@@ -380,7 +380,7 @@ Nota: Con esta extensión y el .NET SDK instalado, ya puedes crear, ejecutar y d
 
 **Configuraciones específicas aplicadas:**
 
-![Descripción clara del contenido](screenshots/setting.PNG)
+![Descripción clara del contenido](screenshots/Setting1.png)
 
 Se creó y activó un entorno virtual .venv para aislar dependencias del proyecto.
 
