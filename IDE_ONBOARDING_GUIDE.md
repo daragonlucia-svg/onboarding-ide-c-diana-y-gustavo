@@ -382,16 +382,16 @@ Nota: Con esta extensión y el .NET SDK instalado, ya puedes crear, ejecutar y d
 
 ![Descripción clara del contenido](screenshots/Setting1.png)
 
-Se creó y activó un entorno virtual .venv para aislar dependencias del proyecto.
+Se creó y activó un entorno virtual .venv para aislar dependencias del proyecto
 
 Se configuró el intérprete de Python apuntando al entorno virtual:
-C:\Users\darag\OneDrive\Imágenes\Prueba\.venv\Scripts\python.exe.
+C:\Users\darag\OneDrive\Imágenes\Prueba\.venv\Scripts\python.exe
 
-Se instaló y configuró Black como formateador de código, con autoformato al guardar, escribir y pegar.
+Se instaló y configuró Black como formateador de código, con autoformato al guardar, escribir y pegar
 
-Se personalizó VS Code con el tema Material Theme Ocean High Contrast y los iconos DeepForest.
+Se personalizó VS Code con el tema Material Theme Ocean High Contrast y los iconos DeepForest
 
-Se ajustaron opciones de explorador y compatibilidad con .NET, sin afectar Python.
+Se ajustaron opciones de explorador y compatibilidad con .NET, sin afectar Python
 
 ### Proyecto de Ejemplo
 
@@ -403,7 +403,7 @@ Python
 
 **Proceso de ejecución:**
    1. Abre VS Code en la carpeta del proyecto
-   2. Wjecuta en la terminal:
+   2. Ejecuta en la terminal:
 
       python <nombre_del_archivo>.py
 
