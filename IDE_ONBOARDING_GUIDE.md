@@ -143,9 +143,8 @@ Ejemplos:
 
    1. Abre una terminal o PowerShell y ejecuta:
 
-      ```
        dotnet --version
-      ```
+   
    2. Si aparece un numero de version, el SDK se instalo correctamente!
 
 
@@ -195,9 +194,8 @@ Nota: Con esta extensión y el .NET SDK instalado, ya puedes crear, ejecutar y d
    4. Abrir la terminal integrada en VS Code
    5. Escribir en la terminal: 
 
-      ```
        dotnet new console -o MiProyecto
-      ```
+
    6. ¡Listo! Tu proyecto de C# ya está creado
 
 ![Descripción clara del contenido](screenshots/proyecto.PNG)
@@ -231,9 +229,8 @@ Nota: Con esta extensión y el .NET SDK instalado, ya puedes crear, ejecutar y d
    1. Abrir la terminal integrada en VS Code
    2. Asegurarse de estar dentro de la carpeta del proyecto, escribir el comando: 
    
-      ```
           cd MiProyecto
-      ```
+
    3. Ejecutar el proyecto, escribir: dotnet run 
    4. Listo! verificar la salida de la terminal
       Hello, World!
@@ -279,9 +276,7 @@ Nota: Con esta extensión y el .NET SDK instalado, ya puedes crear, ejecutar y d
 3. Ejecutar el proyecto con Ctrl + F5
 4. Verificar la salida en la consola:
 
-    ```
       Hello, World!
-   ```
 
 ![Descripción clara del contenido](screenshots/prueba.PNG)
 
@@ -318,9 +313,8 @@ Nota: Con esta extensión y el .NET SDK instalado, ya puedes crear, ejecutar y d
    2. Ejecutar con Ctrl + F5
    3. Verificar que la consola muestre:
 
-   ```
       Hello, World!
-   ```
+   
 - Uso de Solution Explorer
 
 ![Descripción clara del contenido](screenshots/solucion.PNG)
@@ -361,9 +355,7 @@ Nota: Con esta extensión y el .NET SDK instalado, ya puedes crear, ejecutar y d
    1. Abrir la terminal o PowerShell
    2. Escribir el comando:
 
-    ```
       python --version
-    ```
 
 ### Configuración en VS Code
 
