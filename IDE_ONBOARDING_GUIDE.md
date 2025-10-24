@@ -405,10 +405,9 @@ Python
    1. Abre VS Code en la carpeta del proyecto
    2. Wjecuta en la terminal:
 
-   ```
       python <nombre_del_archivo>.py
 
-    ```
+
 ![Ejecucion](screenshots/ejecucion.PNG)
 
 ## Configuraciones Recomendadas
