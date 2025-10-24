@@ -379,36 +379,65 @@ Nota: Con esta extensión y el .NET SDK instalado, ya puedes crear, ejecutar y d
 - Busca la extensión oficial del lenguaje que proporcione soporte completo
 
 **Configuraciones específicas aplicadas:**
-[Documentar los ajustes que se realizaron, como configuración del intérprete, formateo automático, linting, etc.]
 
-![Descripción clara del contenido](screenshots/setting.png)
+![Descripción clara del contenido](screenshots/setting.PNG)
+
+Se creó y activó un entorno virtual .venv para aislar dependencias del proyecto.
+
+Se configuró el intérprete de Python apuntando al entorno virtual:
+C:\Users\darag\OneDrive\Imágenes\Prueba\.venv\Scripts\python.exe.
+
+Se instaló y configuró Black como formateador de código, con autoformato al guardar, escribir y pegar.
+
+Se personalizó VS Code con el tema Material Theme Ocean High Contrast y los iconos DeepForest.
+
+Se ajustaron opciones de explorador y compatibilidad con .NET, sin afectar Python.
 
 ### Proyecto de Ejemplo
 
 **Código desarrollado:**
-```[lenguaje]
-// Código de ejemplo aquí
-// Comentarios explicativos
-```
+Python
+
+![Codigo python](screenshots/ejercicio.PNG)
+
 
 **Proceso de ejecución:**
-[Describir cómo ejecutar el código]
+   1. Abre VS Code en la carpeta del proyecto
+   2. Wjecuta en la terminal:
 
----
+   ```
+      python <nombre_del_archivo>.py
+
+    ```
+![Ejecucion](screenshots/ejecucion.PNG)
 
 ## Configuraciones Recomendadas
 
 **Configuraciones generales:**
-[Documentar configuraciones que se consideran útiles para cualquier desarrollador]
+- Tema oscuro (menos cansancio visual)
+- Fuente monoespaciada (cada letra ocupa el mismo espacio, código más ordenado)
+- Auto-guardado y formateo automático
+- Barra lateral con explorador y control de versiones
+- Terminal integrada predeterminada
 
 **Herramientas adicionales:**
-[Extensions, herramientas CLI, o utilidades que se consideran beneficiosas]
+- Instalar Git para control de versiones: https://git-scm.com/
+- Instalar extensiones según el lenguaje (Python, C#, Java, etc)
 
 **Solución de problemas comunes:**
-[Problemas frecuentes durante la configuración y sus soluciones]
+- Verifica que Python o .NET estén en el PATH si no se ejecutan
+- Asegúrate de que el archivo o proyecto esté en la carpeta correcta al ejecutar
+- Reinicia VS Code si una extensión no funciona
+- Usa entornos virtuales en Python para no mezclar dependencias
 
 **Recursos útiles:**
-- Enlace [Enlace]: [Descripción]
-- Documentación [Documentación]: [Descripción]
+- Enlace [Visual Studio Code](https://code.visualstudio.com/): Página oficial para descargar e instalar VS Code
+- Documentación [Visual Studio Code](https://code.visualstudio.com/docs): Documentación oficial con tutoriales y guías de uso
+- Enlace [Python](https://www.python.org/downloads/): Página oficial para descargar Python
+- Documentación [Python](https://docs.python.org/3/): Guía oficial de Python con tutoriales y referencias
+- Enlace [.NET / C#](https://dotnet.microsoft.com/es-es/download): Descarga oficial del SDK de .NET y C#
+- Documentación [.NET / C#](https://learn.microsoft.com/es-es/dotnet/csharp/): Documentación oficial de C# y .NET SDK
+- Enlace [Git](https://git-scm.com/): Página oficial para descargar Git
+- Documentación [Git](https://git-scm.com/doc): Guía oficial de Git con tutoriales y referencias básicas
 
----
+
