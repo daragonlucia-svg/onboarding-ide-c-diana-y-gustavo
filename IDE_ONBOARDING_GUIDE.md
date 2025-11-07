@@ -133,9 +133,9 @@ Ejemplos:
 
 1. **Descarga e instalación:** 
 
-   1. Descarga el instalador del .NETSDK desde (https://dotnet.microsoft.com/es-es/download) 
-   2. Sigue las instrucciones del asistente hasta completar la instalacion
-   3. !Listo! El SDK .NET estara instalado en tu equipo
+   - Descarga el instalador del .NETSDK desde (https://dotnet.microsoft.com/es-es/download) 
+   - Sigue las instrucciones del asistente hasta completar la instalacion
+   - !Listo! El SDK .NET estara instalado en tu equipo
 
 2. **Verificación:** 
    
