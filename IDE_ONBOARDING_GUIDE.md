@@ -141,11 +141,11 @@ Ejemplos:
    
    ![Descripción clara del contenido](screenshots/powershell.PNG)
 
-   1. Abre una terminal o PowerShell y ejecuta:
+   - Abre una terminal o PowerShell y ejecuta:
 
        dotnet --version
    
-   2. Si aparece un numero de version, el SDK se instalo correctamente!
+   - Si aparece un numero de version, el SDK se instalo correctamente!
 
 
 ### Configuración para C#
